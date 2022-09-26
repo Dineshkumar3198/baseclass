@@ -1,0 +1,2 @@
+# baseclass
+new class
