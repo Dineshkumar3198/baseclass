@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="44.651">
+    <testcase classname="Hotel Booking Application" name="Login Page" time="21.448">
+        <system-out><![CDATA[Given user Launch The  Url..................................................passed
+When user Enter The User Field Gives The "Dinesh1998".......................passed
+And user Enters The Password In The "Denu@3198".............................passed
+Then user Clicks The Loginbtn and Navigates To Hotel Search Page............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hotel Booking Application" name="Search Hotel" time="5.006">
+        <system-out><![CDATA[When user Enter The Location Field and Dropdown The Location................passed
+And user Enter The Hotels Field and Dropdown The Hotel and Select...........passed
+And user Enter The Room Type Field and Select The Room Type.................passed
+And user Enter The Number of Rooms and Dropdown and Select the No of Room...passed
+And user Enter The Check In Date and Gives the In Date......................passed
+And user Enter The Check Out Date and Gives The Out Date....................passed
+And user Enter The Adults Per Room Field and Dropdown and Select The No Of Adults.passed
+And user Enter The Children Per Room Field and Dropdown and Select The No of Children.passed
+Then user Click The Searchbtn and Navigates To Search Hotel1 Page...........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hotel Booking Application" name="Search Hotel1" time="1.128">
+        <system-out><![CDATA[When user Enter Selection Box and Select One Of The Hotel and Click.........passed
+Then user Click The Coninuebtn and Navigates To Book A Hotel Page...........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hotel Booking Application" name="Book A Hotel" time="1.427">
+        <system-out><![CDATA[When user Enter The First Name Field and Feed The First Name................passed
+And user Enter The Last Name Field and Feed The Last Name...................passed
+And user Enter The Address Field and Gives The Address......................passed
+And user Enter The Credit Card No Field and Gives the 16 Digit Card No......passed
+And user Enter The Credit Card Type Field and Dropdown and Select The Card Type.passed
+And user Enter The Expiry Month Field and Dropdown and Select The Month.....passed
+And user Enter The Expiry Year Field and Dropdown and Select The Year.......passed
+And user Enter The Cvv Nos Field and Gives The Cvv Nos......................passed
+Then user Click On The Book Now and Navigates To The Booking Confirmation...passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hotel Booking Application" name="Booking Confirmation" time="8.36">
+        <system-out><![CDATA[Then user Click On The My Itinerybtn and Navigates To The Booked Itenary Page.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hotel Booking Application" name="Booked Itinery" time="6.363">
+        <system-out><![CDATA[When user Enter The Option and Select All The Order Id Option...............passed
+And user Click On The Cancel Selected and Navigates To the Alert Page.......passed
+And user click On The Alert Box and Error Will Gone.........................passed
+And user Take The Screen Shot Of The page...................................passed
+And user Click on LogOut....................................................passed
+And user Click On The Main page Login Option Again..........................passed
+Then user Takes The Output Of The Case......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
